@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #f5efe3;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Evita zoom involuntário ao focar inputs no iOS (fontes >= 16px já ajudam) */
+input,
+select,
+textarea {
+  font-size: 16px;
+}
